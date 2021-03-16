@@ -1,0 +1,3 @@
+Rscript ../HIRs_Calling.R -i data/3D7_Ring.matrix -o results/ -r Pf3D7_genome_regions_10k.bed --rm_diag_ratio 0.2 --quan_min_intra 0.97 --quan_min_inter 0.92 --continous_bins 3 --inter_bin_apper 3
+
+
