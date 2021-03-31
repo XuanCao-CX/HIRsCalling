@@ -12,7 +12,7 @@ HIRs for inter-chromosomal
 
 -----------------------
 
-HIRs Usage
+HIRsCalling Usage
 -------
 Usage: HIRsCalling.R: Call Pf High-interacting Regions(HIRs) from merged hic concact matrix.
 
