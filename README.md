@@ -46,7 +46,7 @@ Heatmap dir: heatmap_intra and heatmap_inter. Each heatmap_dir contain contact h
                 number >= continous_bins
 
         --inter_bin_apper=CHARACTER
-                For call inter HIRs of each chrs, we kept the continous bins that appaered 
+                For call inter HIRs of each chrs, we kept the continous bins that appeared 
                 number >= inter_bin_apper
 
         -h, --help
