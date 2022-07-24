@@ -30,19 +30,24 @@ Heatmap dir: heatmap_intra and heatmap_inter. Each heatmap_dir contain contact h
                 The genome regions corresponding to each row of matirx.Format: first 3 columns: chr,star,end.
 
         --rm_diag_ratio=CHARACTER
-                For each intra matrix, it's the ratio of each chr bins number to remove the diagonal bins. Not used for inter chrs. Default: 0.3
+                For each intra matrix, it's the ratio of each chr bins number to remove the diagonal bins.
+                Not used for inter chrs. Default: 0.3
 
         --quan_min_intra=CHARACTER
-                For each intra matrix, the minimum quantile ratio of each matrix to define the bins as signal bins to next step or noise bins. Default:0.9
+                For each intra matrix, the minimum quantile ratio of each matrix to define the bins
+                as signal bins to next step or noise bins. Default:0.9
 
         --quan_min_inter=CHARACTER
-                For each intra matrix, the minimum quantile ratio of each matrix to define the bins as signal bins to next step or noise bins. Default:0.9
+                For each intra matrix, the minimum quantile ratio of each matrix to define the bins 
+                as signal bins to next step or noise bins. Default:0.9
 
         --continous_bins=CHARACTER
-                For each matrix after removing the noise bins, we kept the continous bins that number >= continous_bins
+                For each matrix after removing the noise bins, we kept the continous bins that 
+                number >= continous_bins
 
         --inter_bin_apper=CHARACTER
-                For call inter HIRs of each chrs, we kept the continous bins that appaered number >= inter_bin_apper
+                For call inter HIRs of each chrs, we kept the continous bins that appaered 
+                number >= inter_bin_apper
 
         -h, --help
                 Show this help message and exit
