@@ -7,7 +7,6 @@ library(RColorBrewer)
 library(pheatmap)
 library(data.table)
 
-
 option_list = list(
     make_option(c("-i", "--input"), type="character", default=NULL,
     			help="Input merged square matrix file. File has header and rownames.",metavar="character"),
